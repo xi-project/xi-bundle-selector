@@ -1,0 +1,4 @@
+{% for item in items %}
+    <li class="sel-item" data-id="{{item.id }}">{{ item.name }}<a href="#" class="ui-icon ui-icon-close remove"></a></li>
+        <input type="hidden" class="tag-id" name="selector_item[]" value="{{item.id}}" data-id="{{item.id}}" />
+{% endfor %}

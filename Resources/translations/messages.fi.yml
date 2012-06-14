@@ -1,0 +1,5 @@
+error:
+    malformed-json: "Virhe: Virheellinen json data"
+    internal-server-error: "Sisäinen palvelinvirhe keskeytti pyynnön"
+    internal-server-error.try-again: "Sisäinen palvelinvirhe keskeytti pyynnön. Ole hyvä ja yritä uudelleen"
+    item-added: "Valittu kohde on jo lisätty"

@@ -1,0 +1,5 @@
+error:
+    malformed-json: "Error: malformed json data"
+    internal-server-error: An internal server error prevented the request from being processed properly
+    internal-server-error.try-again: "An internal server error occured when saving the item. Please try again"
+    item-added: "The selected item is already added"

@@ -1,0 +1,6 @@
+services:
+    tag.twig.extension:
+        class: Xi\Bundle\SelectorBundle\Twig\Extensions\Selector
+        arguments: ["@twig"]
+        tags:
+          -  { name: twig.extension }
