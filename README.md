@@ -29,3 +29,21 @@ none
             new Xi\Bundle\SelectorBundle\XiSelectorBundle(),
  ?>
 ```
+
+## Usage:
+
+You need to initialize selector in your main script file.
+
+```coffeescript    
+    options = {
+        mainElement:            '.tag_item_selector',
+        autoCompleteElement:    '.item_field', 
+        containerElement:       '.items ul', 
+        source:                 'URL TO SEARCH ACTION',     
+        saveUrl:                'URL TO ADD ACTION',    
+        selected:               selected,
+        canAddNew:              true        # CAN YOU ADD NEW ITEM, OR JUST SELECT WHAT YOU HAVE SEARCHED.
+        minLength:              3           # MIN TEXT LENGTH BEFORE SEARCH KICKS IN
+    }
+    yourSelector = new App.Selector(options)
+```
