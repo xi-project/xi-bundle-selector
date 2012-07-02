@@ -1,5 +1,5 @@
 {
-    "name": "xi/xi-bundle-selector",
+    "name": "xi/selector-bundle",
     "description": "A handy selector UI compoment to use with a Symfony 2 project",
     "keywords": ["selector"],
     "type": "symfony-bundle",
