@@ -1,7 +1,7 @@
 {
     "name": "xi/xi-bundle-selector",
     "description": "A handy selector UI compoment to use with a Symfony 2 project",
-    "keywords": ["selecgtor"],
+    "keywords": ["selector"],
     "type": "symfony-bundle",
     "authors": [
         {
