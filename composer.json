@@ -1,5 +1,5 @@
 {
-    "name": "xi-project/xi-bundle-selector",
+    "name": "xi/xi-bundle-selector",
     "description": "A handy selector UI compoment to use with a Symfony 2 project",
     "keywords": ["selecgtor"],
     "type": "symfony-bundle",
@@ -8,9 +8,9 @@
             "name": "xi-project",
             "email": "xi.devs@gmail.com"
         }
-    ],        
+    ],
     "require": {
-        "xi/tag-bundle": "2.1.x-dev",
+        "xi/tag-bundle": "2.1.x-dev"
     },
     "autoload": {
         "psr-0": {
