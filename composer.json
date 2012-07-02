@@ -9,7 +9,9 @@
             "email": "xi.devs@gmail.com"
         }
     ],        
-    "require": {},
+    "require": {
+        "xi/tag-bundle": "2.1.x-dev",
+    },
     "autoload": {
         "psr-0": {
             "Xi\\Bundle\\SelectorBundle": ""
