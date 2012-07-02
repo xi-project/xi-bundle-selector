@@ -1,0 +1,19 @@
+{
+    "name": "xi-project/xi-bundle-selector",
+    "description": "A handy selector UI compoment to use with a Symfony 2 project",
+    "keywords": ["selecgtor"],
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "xi-project",
+            "email": "xi.devs@gmail.com"
+        }
+    ],        
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "Xi\\Bundle\\SelectorBundle": ""
+        }
+    },
+    "target-dir": "Xi/Bundle/SelectorBundle"
+}
