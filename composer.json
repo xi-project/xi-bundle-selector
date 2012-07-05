@@ -9,6 +9,7 @@
             "email": "xi.devs@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "git",
