@@ -10,12 +10,6 @@
         }
     ],
     "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "git",
-            "url": "http://github.com/xi-project/FPNTagBundle"
-        }
-    ],
     "require": {
         "xi/tag-bundle": "2.1.x-dev"
     },
