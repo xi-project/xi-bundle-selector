@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "xi/tag-bundle": "2.0"
+        "xi/tag-bundle": "2.0.x-dev"
     },
     "autoload": {
         "psr-0": {
