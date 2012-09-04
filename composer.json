@@ -9,7 +9,7 @@
             "email": "xi.devs@gmail.com"
         }
     ],
-
+    "minimum-stability": "dev",
     "require": {
         "xi/tag-bundle": "dev-master"
     },
