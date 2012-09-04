@@ -9,9 +9,8 @@
             "email": "xi.devs@gmail.com"
         }
     ],
-
     "require": {
-        "xi/tag-bundle": "dev-master"
+        "xi/tag-bundle": "2.0"
     },
     "autoload": {
         "psr-0": {
