@@ -5,7 +5,8 @@ Selector bundle provides a handy selector UI compoment to use with a Symfony 2 p
 
 ## Dependencies
 
-none
+xi-bundle-tag
+* https://github.com/xi-project/xi-bundle-tag
 
 ## Installing
 
