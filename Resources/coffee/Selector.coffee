@@ -158,8 +158,8 @@ class App.Selector
         
     attachRemoveListener: ->
         self = this
-        
-        $(".items ul li a.remove").live 'click', (e) ->
+
+        $(".items ul").on "click", "li a.remove", (e) ->
             self.detachItem $(this).parent()
             return false
             
