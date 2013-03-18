@@ -27,12 +27,12 @@ class App.Selector
                 else
                     
                     @clearErrors()
-
+                    self = @
                     lastXhr = $.getJSON @source, request, (data, status, xhr) ->
                         if data.success
                             response data.success
                          else
-                            @showError "messages:error.malformed-json".t()
+                            self.showError "messages:error.malformed-json".t()
                     .error =>
                         @showError "messages:error.internal-server-error".t()
           
